@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+main{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    height: 20%;
+    border: 2px solid green;
+    border-left: none;
+    border-right: none;
+    position: static;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 55px;
+}
+div{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: linear-gradient(to bottom left, black 80%, green);
+}
+header{
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid green;
+    border-bottom: none;
+    line-height: 80%;
+}
